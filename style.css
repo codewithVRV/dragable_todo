@@ -1,0 +1,95 @@
+body{
+    background-color: #212121;
+}
+
+.upper-part {
+    border: 1px solid white;
+    width: 50%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    padding: 20px;
+}
+
+.upper-part input {
+    width: 50%;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 1.3rem;
+    padding: 5px;
+}
+
+.box-wrapper {
+    display: flex;
+    gap: 3rem;
+    width: 90%;
+    margin: 0 auto;
+    height: 70vh;
+}
+
+
+.btn-add {
+    background-color: dodgerblue;
+    color: #ffff;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 12px;
+    padding: 0 10px;
+    cursor: pointer;
+    transition: all ease-in-out.3s;
+}
+
+.btn-add:hover {
+    background-color: rgb(63, 111, 173);
+}
+
+.lower-part{
+    border: 1px solid #fff;
+    width: 45%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.left-box {
+    display: flex;
+    gap: 1.5rem;
+    width: 75%;
+    border: 1px solid blue;
+    justify-content: center;
+    align-items: center;
+    cursor: grab;
+}
+
+.left-box #item{
+    font-size: 2rem;
+    color: #fff;
+}
+.left-box .btn {
+    height: 50px;
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: dodgerblue;
+    color: #ffff;
+    transition: all ease-in-out.3s;
+}
+
+.left-box .btn:hover{
+    background-color: rgb(63, 111, 173);
+
+
+}
+
+.right-box-wrapper{
+    
+    width: 45%;
+    border: 1px solid #ffff;
+}
